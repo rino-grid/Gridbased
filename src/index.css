@@ -27,6 +27,15 @@
   }
 }
 
+@keyframes pulse {
+  0%, 100% {
+    opacity: 0.2;
+  }
+  50% {
+    opacity: 0.4;
+  }
+}
+
 /* Hide scrollbars */
 ::-webkit-scrollbar {
   width: 0px !important;
