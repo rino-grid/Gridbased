@@ -6,12 +6,14 @@ const Hero = () => {
         className="absolute inset-0"
         style={{
           backgroundImage: `
-            linear-gradient(to right, rgba(34, 34, 34, 0.5) 1px, transparent 1px),
-            linear-gradient(to bottom, rgba(34, 34, 34, 0.5) 1px, transparent 1px)
+            linear-gradient(to right, rgba(34, 34, 34, 0.2) 1px, transparent 1px),
+            linear-gradient(to bottom, rgba(34, 34, 34, 0.2) 1px, transparent 1px),
+            linear-gradient(to right, rgba(34, 34, 34, 0.1) 2px, transparent 2px),
+            linear-gradient(to bottom, rgba(34, 34, 34, 0.1) 2px, transparent 2px)
           `,
-          backgroundSize: "24px 24px",
-          backgroundPosition: "center center",
-          animation: "gridMove 2s linear infinite",
+          backgroundSize: '40px 40px, 40px 40px, 200px 200px, 200px 200px',
+          backgroundPosition: 'center center',
+          animation: 'gridMove 20s linear infinite',
         }}
       />
       <div className="relative z-10 text-center">
